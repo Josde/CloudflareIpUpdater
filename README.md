@@ -12,4 +12,6 @@ It's useful for people who, like me, have a dynamic IP that can't be turned off 
 	 - DOMAIN_NAME: The full name of your domain, including subdomains if needed.
  - Set up a Cronjob to run the script with whichever frequency you want to.
 
+## Final notes  
+I wrote this in like half an hour; if you are running something somewhat serious or have any problem running this script, just check **[timothymiller/cloudflareddns](https://github.com/timothymiller/cloudflare-ddns)**. It will be better in every single regard.
  
