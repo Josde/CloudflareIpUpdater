@@ -29,6 +29,7 @@ def main():
             last_ip = ip_file.readline()
             if (current_ip != last_ip):
                 IP_NEEDS_UPDATING = True
+                ip_file.truncate(0)
                 ip_file.write(current_ip)
         except Exception: #Should be except OSError, but for some reason that doesn't work
             print("Error creating latest_ip file. Are you running with the correct permissions?")
